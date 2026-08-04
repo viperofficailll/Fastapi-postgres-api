@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!example.env
+
+# Keep example config files visible for setup
+!example.env
+
+# Local databases / logs
+*.sqlite3
+*.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker / lint
+.mypy_cache/
+.ruff_cache/
+
+# Build / packaging
+build/
+dist/
+.dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
